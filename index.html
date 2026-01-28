@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Количество символов в тексте</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <div class="theme-toggle">
+            <button id="theme-btn">🌙/☀️</button>
+        </div>
+        <div class="text-box">
+            <textarea id="text-input" placeholder="Введите текст..."></textarea>
+            <div id="char-count">0</div>
+            <div class="buttons">
+                <button id="copy-btn" class="btn">Скопировать текст</button>
+                <button id="clear-btn" class="btn">Сбросить</button>
+            </div>
+        </div>
+        <div class="purpose">
+            <p>Смысл этого сайта — показать, как можно взаимодействовать с текстом в реальном времени, подсчитывая количество символов. Это полезно для написания постов, комментариев и других текстовых задач с ограничением по длине.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Сайт был создан "        " и "Аалиса AI"</p>
+            <p>&copy; 2026. Все права не защищены.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@Roblox-noob-3" target="_blank" rel="noopener noreferrer" class="youtube-link">
+                <img src="YouTube.png" alt="YouTube">
+            </a>
+            <a href="https://t.me/MeMbl_om_Herpa" target="_blank" rel="noopener noreferrer" class="telegram-link">
+                <img src="telegram.png" alt="Telegram">
+            </a>
+        </div>
+    </footer>
+
+    <!-- Уведомление о копировании -->
+    <div id="notification" class="notification hidden">Текст скопирован!</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
